@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 780px;
+    margin: 0 auto;
+    background-color: #2591DB;
+    height: 910px;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #0A56BD;
+    text-align: center;
+    height: 120px;
+    }
+
+
+
+h1, h2, h3{
+    color: #C1E3F5;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+}
+
+.tableDiv {
+    padding-top: 32px;
+}
+
+/* .btnDiv{
+    padding-right: 12px;
+} */
+
+.inputFieldsForm{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px ;
+}
+
+#totalMonthly{
+    float: right;
+    padding-right: 12px;
+}
+
+/* input{
+    margin: 3;
+} */
+
+tr{
+    color: white;
+}
